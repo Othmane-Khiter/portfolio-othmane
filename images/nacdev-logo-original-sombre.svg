@@ -1,19 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" role="img" aria-label="NAC Dev">
   <title>NAC Dev</title>
-  <defs>
-    <linearGradient id="nacGrad" gradientUnits="userSpaceOnUse" x1="56" y1="20" x2="104" y2="92">
-      <stop offset="0" stop-color="#9B72FF"/>
-      <stop offset="0.55" stop-color="#FF5C93"/>
-      <stop offset="1" stop-color="#FFB13D"/>
-    </linearGradient>
-  </defs>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <g stroke-width="7">
       <path d="M22 60 V20 L50 60 V20" stroke="#FFFFFF"/>
-      <path d="M66 60 L80 20 L94 60" stroke="url(#nacGrad)"/>
+      <path d="M66 60 L80 20 L94 60" stroke="#FF6B57"/>
       <path d="M138 26 Q138 20 132 20 H116 Q110 20 110 26 V54 Q110 60 116 60 H132 Q138 60 138 54" stroke="#FFFFFF"/>
     </g>
-    <g stroke-width="2.4" stroke="url(#nacGrad)">
+    <g stroke-width="2.4" stroke="#FF6B57">
       <path d="M57 78 V92 H61 Q67 92 67 85 Q67 78 61 78 Z"/>
       <path d="M75 87 H85 Q85 82 80 82 Q75 82 75 87 Q75 92 80 92 Q83.5 92 85 90"/>
       <path d="M93 82 L98 92 L103 82"/>
