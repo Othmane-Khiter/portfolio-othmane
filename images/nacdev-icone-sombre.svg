@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="NAC Dev">
+  <title>NAC Dev</title>
+  <rect width="128" height="128" rx="28" fill="#0B1220"/>
+  <g transform="translate(64 64) scale(0.8) translate(-80 -40)" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 60 V20 L50 60 V20" stroke="#FFFFFF"/>
+    <path d="M66 60 L80 20 L94 60" stroke="#FF6B57"/>
+    <path d="M138 26 Q138 20 132 20 H116 Q110 20 110 26 V54 Q110 60 116 60 H132 Q138 60 138 54" stroke="#FFFFFF"/>
+  </g>
+</svg>

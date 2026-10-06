@@ -22,7 +22,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 body {
   margin: 0;
   background: var(--canvas);
@@ -59,26 +59,21 @@ ul { padding: 0; list-style: none; }
 }
 
 /* ---------- En-tête ---------- */
-.site-header { padding-block: 28px; }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  padding-block: 16px;
+  background: rgba(250, 248, 255, 0.94);
+}
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
 }
-.mark {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 22px;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  color: var(--canvas);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.brand { display: block; line-height: 0; }
+.brand img { height: 36px; width: auto; }
 .main-nav {
   display: flex;
   align-items: center;
@@ -154,6 +149,13 @@ ul { padding: 0; list-style: none; }
   font-size: clamp(3.25rem, 2.4rem + 4.2vw, 6.5rem);
   line-height: 0.95;
   letter-spacing: -0.01em;
+}
+.hero-logo {
+  --logo-w: clamp(240px, 22vw + 120px, 420px);
+  width: var(--logo-w);
+  height: auto;
+  margin-left: calc(var(--logo-w) * -0.1375);
+  display: block;
 }
 .hero-tagline {
   margin-top: 28px;
@@ -386,7 +388,9 @@ ul { padding: 0; list-style: none; }
   display: flex;
   justify-content: space-between;
   font-size: 13px;
+  align-items: center;
 }
+.footer-logo { height: 30px; width: auto; }
 
 /* ============================================================
    Responsive — sous 860px
